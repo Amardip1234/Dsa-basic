@@ -134,6 +134,7 @@ public class basics {
                     System.out.print(" *");
                 }
                 System.out.println();
+
             }
 
 
