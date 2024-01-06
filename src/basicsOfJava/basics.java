@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class basics {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter your numm");
 //        int n  = sc.nextInt();
 //        System.out.println("lucky num is "+ n);
@@ -126,16 +126,108 @@ public class basics {
 
 
 
-            for (int i = 1; i <= 4; i++) {
-                for (int j = 3; j >= i; j--) {
-                    System.out.print(' ');
-                }
-                for (int k =1; k<=i; k++){
-                    System.out.print(" *");
-                }
-                System.out.println();
+        // printing star pyramid pattern
 
-            }
+//            for (int i = 1; i <= 4; i++) {
+//                for (int j = 3; j >= i; j--) {
+//                    System.out.print(' ');
+//                }
+//                for (int k =1; k<=i; k++){
+//                    System.out.print(" *");
+//                }
+//                System.out.println();
+//            }
+
+
+//        rectangle number pattern printing
+
+//        for (int i = 1; i<=7; i++){
+//            for (int j = i; j<=7; j++){
+//                System.out.print(j);
+//            }
+//            for (int k = 1; k<= i-1; k++){
+//                System.out.print(k);
+//            }
+//            System.out.println();
+//        }
+
+//      printing 1 to 6 number rectangle pattern
+
+//        for (int i=1; i<=4; i++){
+//            for (int k=1; k<=6; k++){
+//                System.out.print(k);
+//            }
+//            System.out.println();
+//        }
+
+
+        //      Hollow rectangle pattern printing
+
+//        for (int i = 1; i<=4; i++){
+//            for (int j =1;j<=4; j++){
+//                if ( i==1 || i==4 || j==1|| j==4){
+//                    System.out.print('*');
+//                }else {
+//                    System.out.print(' ');
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
+//        print odd even matrix pattern rectangle
+
+//        for (int i = 1; i<=4; i++){
+//            for (int j = 1; j<=6; j++){
+//                if ((i+j)%2==0){
+//                    System.out.print(1);
+//                }else {
+//                    System.out.print(2);
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//        numerical triangular pattern
+
+//        for (int i=1;i<=4; i++){
+//            for (int j=1; j<=i; j++){
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
+
+
+//        Hollow numerical pyramid
+
+//        for (int i = 1; i<=4; i++){
+//            for (int j = 3; j>=i; j--){
+//                System.out.print("  ");
+//            }
+//            for (int k=1;k<=i; k++){
+//                System.out.print(" "+k);
+//            }
+//            for (int l = i-1; l>=1; l--){
+//                System.out.print(" "+l);
+//            }
+//            System.out.println();
+//        }
+
+
+//        for (int i = 1; i<=4; i++){
+//            for (int l =3; l>=i; l--){
+//                System.out.print("  ");
+//            }
+//            for (int j = 1; j<=i; j++){
+//                if (i==1 || i==4 || j==1|| j==i){
+//                    System.out.print("   "+i);
+//                }else {
+//                    System.out.print(" ");
+//                }
+//
+//            }
+//            System.out.println();
+//        }
 
 
 
