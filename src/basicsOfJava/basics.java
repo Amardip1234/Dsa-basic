@@ -2,9 +2,12 @@ package basicsOfJava;
 import javax.swing.*;
 import java.util.Scanner;
 
+
+
+
 public class basics {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 //        System.out.println("Enter your numm");
 //        int n  = sc.nextInt();
 //        System.out.println("lucky num is "+ n);
@@ -227,6 +230,19 @@ public class basics {
 //
 //            }
 //            System.out.println();
+//        }
+
+
+
+//        ye galat hai binary to decimal
+
+//        int binary_num = sc.nextInt();
+//        int ans =0;
+//        int pww = 1;
+//
+//        while (binary_num>0){
+//            int unit_digit = binary_num % 10;
+//            ans += pww;
 //        }
 
 

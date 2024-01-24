@@ -1,17 +1,20 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import pw.skiils.App;
+
+import javax.crypto.spec.PSource;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        App obj = new App();
+//        System.out.println("printing outside from package: "+obj.str);
+        App3 obj2 = new App3();
+        obj2.printfromChildClass();
+    }
+}
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+class App3 extends App{
+    void printfromChildClass(){
+        App3 obj = new App3();
+        System.out.println("printing from child class: "+obj.str);
     }
 }
